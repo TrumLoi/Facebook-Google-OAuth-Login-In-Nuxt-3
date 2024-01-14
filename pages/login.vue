@@ -1,8 +1,7 @@
-<template>
-  <div>
-    Login
-  </div>
-</template>
+<template></template>
 
 <script setup lang="ts">
+definePageMeta({
+  middleware: ["auth"]
+});
 </script>

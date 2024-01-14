@@ -2,4 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.scss'],
+  modules: [
+    '@pinia/nuxt',
+    '@ant-design-vue/nuxt'
+  ],
 })

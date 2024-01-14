@@ -1,6 +1,6 @@
 <template>
   <div>
-    Just go to <NuxtLink to="/profile">Profile</NuxtLink>
+    Hello, check <NuxtLink to="/profile" class="">your profile</NuxtLink>
   </div>
 </template>
 
